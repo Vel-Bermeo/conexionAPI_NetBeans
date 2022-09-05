@@ -12,6 +12,11 @@ package com.mycompany.conexionapi;
 public class ConexionAPI {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        String str = "Hello This is DelfStack";
+        String[] newStr = str.split("\\s+");
+        for (int i = 0; i < newStr.length; i++) {
+            System.out.println(newStr[i]);
+        }
+        //System.out.println("Hello World!");
     }
 }
